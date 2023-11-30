@@ -1,0 +1,24 @@
+{
+  "name": "@yandongxu/eslint-config-vue",
+  "version": "1.0.0",
+  "author": "yandongxu<hello@yandongxu.com>",
+  "main": "lib/index.cjs",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@vue/eslint-config-typescript": "^12.0.0",
+    "eslint-plugin-vue": "^9.19.2"
+  },
+  "peerDependencies": {
+    "eslint": "^8.50.0",
+    "typescript": "*"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0"
+  }
+}
